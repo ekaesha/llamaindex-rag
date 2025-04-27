@@ -1,0 +1,15 @@
+[project]
+name = "llama-index-rag-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "fastembed>=0.6.1",
+    "llama-index>=0.12.33",
+    "llama-index-embeddings-fastembed>=0.3.1",
+    "llama-index-llms-ollama>=0.5.4",
+    "llama-index-readers-file>=0.4.7",
+    "llama-index-vector-stores-qdrant>=0.5.0",
+    "qdrant-client>=1.14.2",
+]
